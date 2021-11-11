@@ -46,6 +46,7 @@ header .menu-icon {
   align-items: center;
   justify-content: center;
 }
+
 header nav {
   position: fixed;
   z-index: 1;
@@ -82,7 +83,7 @@ header nav ul li {
   stroke: var(--wild-sand);
   stroke-width: 4px;
   stroke-linecap: round;
-  padding: 12px;
+  padding: 1rem;
 }
 
 .main-menu svg line {
@@ -91,18 +92,19 @@ header nav ul li {
 }
 
 .main-menu svg line:first-child {
-  transform: translateY(12px);
+  transform: translateY(1rem);
 }
 
 .main-menu svg line:nth-child(3) {
   display: none;
 }
+
 .main-menu svg line:nth-child(4) {
   display: none;
 }
 
 .main-menu svg line:last-child {
-  transform: translateY(-12px);
+  transform: translateY(-1rem);
 }
 
 .menu-icon {
@@ -136,6 +138,7 @@ header nav ul li {
 .menu-show svg line:last-child {
   transform: rotate(0deg);
 }
+
 /* end svg stuff */
 
 body {
@@ -554,6 +557,7 @@ aside article {
   header .menu-icon {
     display: none;
   }
+
   header nav {
     position: static;
     width: auto;
@@ -562,17 +566,21 @@ aside article {
     background-color: transparent;
     padding-top: 0;
   }
+
   header nav ul {
     flex-direction: row;
     align-items: flex-end;
     gap: 2rem;
   }
+
   header nav ul li {
     font-size: 1rem;
   }
+
   .button {
     transition: background-color 600ms, color 1800ms;
   }
+
   .button:hover {
     background-color: var(--au-chico);
     color: var(--wild-sand);
