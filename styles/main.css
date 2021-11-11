@@ -130,12 +130,12 @@ header nav ul li {
 
 .menu-show svg line:nth-child(3) {
   display: block;
-  transform: translateX(-15px) translateY(15px) rotate(45deg);
+  transform: translateX(-15px) translateY(12px) rotate(45deg);
 }
 
 .menu-show svg line:nth-child(4) {
   display: block;
-  transform: translateX(-15px) translateY(-15px) rotate(-45deg);
+  transform: translateX(-15px) translateY(-12px) rotate(-45deg);
 }
 
 .menu-show svg line:last-child {
