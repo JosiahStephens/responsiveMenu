@@ -84,10 +84,13 @@ header nav ul li {
   stroke-width: 4px;
   stroke-linecap: round;
   padding: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
 .main-menu svg line {
-  transform-origin: center;
+  transform-origin: center center;
+  transform-box: fill-box;
   transition: transform 200ms ease;
 }
 
